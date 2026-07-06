@@ -232,7 +232,7 @@ No. Your stream comes straight from Twitch, exactly as it always does. EchoSync 
 No. Only the **one** host runs `echosync-host.exe`. Everyone else just needs the extension and the link.
 
 **Can the host run on Mac or Linux?**
-The prebuilt host here is Windows-only. Your friends can be on any operating system — they only need the browser extension.
+The prebuilt host here is Windows-only for now. Your friends can be on any operating system — they only need the browser extension. If there is enough demand for a Mac/Linux port, I will add it in the future.
 
 **Is my data private?**
 Yes. No ads, no analytics, no tracking. The party runs on the host's own PC, not on anyone else's cloud, and the only thing that leaves your machine is small sync data shared with your party.
