@@ -239,6 +239,12 @@ Yes. No ads, no analytics, no tracking. The party runs on the host's own PC, not
 
 ---
 
+## Privacy
+
+EchoSync's developer never collects, receives, or stores any of your data — there's no developer server, no analytics, no tracking, and no ads. Sync data goes only to your party's host and members, in real time, to keep everyone lined up. See the full **[Privacy Policy](PRIVACY.md)**.
+
+---
+
 <div align="center">
 
 Made for watch parties that actually stay in sync. 💙
