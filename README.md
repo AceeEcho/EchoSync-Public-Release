@@ -6,7 +6,7 @@
 
 **Watch Twitch live streams in perfect sync with your friends.**
 
-Free · open source · no account · runs on your own PC
+Free · no account · private · runs on your own PC
 
 </div>
 
@@ -109,7 +109,7 @@ One click, and it stays up to date automatically. Use this once the listing is l
 
 <br>
 
-EchoSync is a small open-source app and isn't code-signed, so Windows SmartScreen may show a blue warning the first time you run it. This is normal for indie apps. Click **More info**, then **Run anyway**.
+EchoSync is a small indie app and isn't code-signed, so Windows SmartScreen may show a blue warning the first time you run it. This is normal for apps like this. Click **More info**, then **Run anyway**.
 
 </details>
 
@@ -160,7 +160,7 @@ The EchoSync overlay appears right on the stream. Whenever someone drifts out of
 
 <br>
 
-Expected — the app isn't code-signed. Click **More info** → **Run anyway**. If you'd rather verify it yourself first, the full source is public (see the [FAQ](#faq)).
+Expected — the app isn't code-signed, so Windows shows this for indie apps by default. Click **More info** → **Run anyway**.
 
 </details>
 
@@ -187,7 +187,7 @@ Open the EchoSync popup and make sure **Show sync panel** is switched on — tog
 
 <br>
 
-It's an unsigned, self-contained binary, which some antivirus engines flag by default even when there's nothing wrong. EchoSync is open source — you can review the code or build the app yourself (see the [FAQ](#faq)). Allow it or add an exception if you trust it.
+It's an unsigned, self-contained binary, which some antivirus engines flag by default even when there's nothing wrong. If you trust it, allow it or add an exception.
 
 </details>
 
@@ -232,13 +232,10 @@ No. Your stream comes straight from Twitch, exactly as it always does. EchoSync 
 No. Only the **one** host runs `echosync-host.exe`. Everyone else just needs the extension and the link.
 
 **Can the host run on Mac or Linux?**
-The prebuilt host here is Windows-only. Your friends can be on any operating system — they only need the browser extension. (Building the host for other platforms is possible from the source.)
+The prebuilt host here is Windows-only. Your friends can be on any operating system — they only need the browser extension.
 
 **Is my data private?**
 Yes. No ads, no analytics, no tracking. The party runs on the host's own PC, not on anyone else's cloud, and the only thing that leaves your machine is small sync data shared with your party.
-
-**Where's the source code?**
-EchoSync is open source: **https://github.com/AceeEcho/EchoSync**
 
 ---
 
