@@ -8,6 +8,8 @@
 
 Free · no account · private · runs on your own PC
 
+### [➕ Add EchoSync to Chrome](https://chromewebstore.google.com/detail/echosync-%E2%80%94-twitch-co-stre/ooepnikoabajieocaehcbcndhpjfadgg)
+
 </div>
 
 ---
@@ -75,17 +77,13 @@ You'll end up with a folder containing **`echosync-host.exe`** and the **`chrome
 
 ### Option A — Chrome Web Store *(recommended)*
 
-<!-- ▼▼▼ TODO: paste your published Chrome Web Store URL between the parentheses below, then delete this comment ▼▼▼ -->
+> 🧩 **[➕ Add EchoSync to Chrome](https://chromewebstore.google.com/detail/echosync-%E2%80%94-twitch-co-stre/ooepnikoabajieocaehcbcndhpjfadgg)**
 
-> 🧩 **[➕ Add EchoSync to Chrome](REPLACE-WITH-CHROME-WEB-STORE-LINK)**
->
-> *(Chrome Web Store listing — link coming soon.)*
-
-One click, and it stays up to date automatically. Use this once the listing is live.
+One click, and it stays up to date automatically. This is the easiest way to install.
 
 ### Option B — Load the `chrome-mv3` folder *(fallback)*
 
-> ⚠️ **Use this only if the Chrome Web Store version above isn't available yet, or isn't working for you.** It is the **exact same extension** — just installed manually from the folder in this repo.
+> ⚠️ **Use this only if the Chrome Web Store version above isn't working for you.** It is the **exact same extension** — just installed manually from the folder in this repo.
 
 1. Make sure you've downloaded and unzipped this repo ([Step 1](#step-1--download-the-files)) so you have the **`chrome-mv3`** folder.
 2. Open Chrome and go to **`chrome://extensions`** (type it into the address bar and press Enter).
