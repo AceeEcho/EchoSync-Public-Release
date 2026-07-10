@@ -10,24 +10,36 @@ Free · no account · private · runs on your own PC
 
 ### [➕ Add EchoSync to Chrome](https://chromewebstore.google.com/detail/echosync-%E2%80%94-twitch-co-stre/ooepnikoabajieocaehcbcndhpjfadgg)
 
+<br>
+
+<img src="media/hero.png" width="840" alt="EchoSync overlay showing who's ahead or behind on a Twitch stream, with one-click align" />
+
 </div>
 
 ---
 
 EchoSync keeps everyone in a watch party lined up on the **same moment** of a live stream. It measures who's ahead or behind and quietly closes the gap on each person's *own* native Twitch player — so the big plays land at the same time instead of seconds apart. No shared screen, no re-streaming; everyone keeps their own full-quality stream.
 
-This repository holds the **ready-to-use downloads**:
+And when the match gets tense, you can turn it into a game: [**watch-party predictions**](#watch-party-predictions) let everyone call the winner and keep a running leaderboard.
 
-| File | What it is |
-|------|------------|
-| **`echosync-host.exe`** | The host app (Windows). **One** person in the group runs this to create the watch party. |
-| **`chrome-mv3/`** | The browser extension, unpacked. **Everyone** who watches installs this. |
+## What's in this repository
+
+This repo is the **ready-to-use download** — no building, no source code, just the two files you actually run:
+
+| File / folder | What it is | Who needs it |
+|------|------------|------|
+| **`echosync-host.exe`** | The host app (Windows). Runs the private sync server for your party. | **One** person in the group. |
+| **`chrome-mv3/`** | The browser extension, unpacked (the fallback install — see [Step 2](#step-2--install-the-extension)). | **Everyone**, if the Chrome Web Store version isn't working. |
+| **`media/`** | The screenshots used in this page. | Nobody — just decoration. |
+
+The best way to install the extension is the **[Chrome Web Store](#step-2--install-the-extension)** (one click, auto-updates). The `chrome-mv3/` folder here is the exact same extension for manual install if the store ever gives you trouble.
 
 ---
 
 ## Contents
 
 - [How it works in 30 seconds](#how-it-works-in-30-seconds)
+- [Watch-party predictions](#watch-party-predictions)
 - [What you need](#what-you-need)
 - [Step 1 — Download the files](#step-1--download-the-files)
 - [Step 2 — Install the extension](#step-2--install-the-extension)
@@ -47,6 +59,26 @@ This repository holds the **ready-to-use downloads**:
 4. Click **Align everyone** — everybody snaps to the same moment. 🎉
 
 > You only ever need **one** host. Everyone else just needs the extension and the link.
+
+---
+
+## Watch-party predictions
+
+<div align="center">
+
+<img src="media/predictions.png" width="840" alt="EchoSync predictions — vote on the match winner before the timer, then see who nailed it on a running leaderboard" />
+
+</div>
+
+Turn the match into a game. On top of keeping everyone in sync, the host can open a **prediction** on whatever you're watching together — and everyone in the party calls it before the clock runs out.
+
+- **Host** — in the host panel there's a **Predictions** box right next to your watchers. Type the two team names, pick **Winner** or **Winner + exact score**, choose how long voting stays open (30 / 60 / 120s), and hit **Start prediction**.
+- **Everyone else** — a prediction card pops up on the sync overlay. Pick your side (and a final score, in score mode) and hit **Submit** before voting closes. You can change your pick right up to the buzzer, and you can tuck the card away any time.
+- **The reveal** — when voting closes the host declares the actual result, the overlay shows who nailed it and how many points they earned, and a **running leaderboard** keeps score across the whole session.
+
+> 🙈 Nobody can see anyone else's pick — or even the vote split — until voting is closed, so there's no peeking.
+
+> Predictions are completely optional and separate from sync. Everything else works exactly the same whether you use them or not. Valorant is supported today, with more games to come.
 
 ---
 
@@ -97,6 +129,12 @@ One click, and it stays up to date automatically. This is the easiest way to ins
 ---
 
 ## Step 3 — Host a watch party
+
+<div align="center">
+
+<img src="media/host.png" width="840" alt="EchoSync host panel — a public link to share and a localhost link for the host, with connected friends" />
+
+</div>
 
 **Only one person does this.** If you're joining someone else's party, skip ahead to [Step 4](#step-4--everyone-joins).
 
@@ -228,6 +266,9 @@ No. Your stream comes straight from Twitch, exactly as it always does. EchoSync 
 
 **Do my friends need the host app too?**
 No. Only the **one** host runs `echosync-host.exe`. Everyone else just needs the extension and the link.
+
+**What are predictions?**
+An optional watch-party game built in. The host opens a prediction on the match you're watching, everyone calls the winner (or the exact score) before a timer, and a leaderboard keeps score. Full details under [Watch-party predictions](#watch-party-predictions).
 
 **Can the host run on Mac or Linux?**
 The prebuilt host here is Windows-only for now. Your friends can be on any operating system — they only need the browser extension. If there is enough demand for a Mac/Linux port, I will add it in the future.
