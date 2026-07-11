@@ -72,13 +72,13 @@ The best way to install the extension is the **[Chrome Web Store](#step-2--insta
 
 Turn the match into a game. On top of keeping everyone in sync, the host can open a **prediction** on whatever you're watching together — and everyone in the party calls it before the clock runs out.
 
-- **Host** — in the host panel there's a **Predictions** box right next to your watchers. Type the two team names, pick **Winner** or **Winner + exact score**, choose how long voting stays open (30 / 60 / 120s), and hit **Start prediction**.
-- **Everyone else** — a prediction card pops up on the sync overlay. Pick your side (and a final score, in score mode) and hit **Submit** before voting closes. You can change your pick right up to the buzzer, and you can tuck the card away any time.
+- **Host** — in the host panel there's a **Predictions** box right next to your watchers. Pick a game — **Valorant, Counter-Strike, League of Legends, or Rocket League** — or write a **custom question** with your own answer options (e.g. *"Does OXY get 30+ kills this map?"*). Choose **Winner** or **Winner + exact score**, set how long voting stays open (30 / 60 / 120s), and hit **Start prediction**. You can run **several predictions at once** and track each one on its own.
+- **Everyone else** — a prediction card pops up on the sync overlay. Pick your side (and a final score, in score mode) and hit **Submit** before voting closes. You can change your pick right up to the buzzer, and you can tuck any card away.
 - **The reveal** — when voting closes the host declares the actual result, the overlay shows who nailed it and how many points they earned, and a **running leaderboard** keeps score across the whole session.
 
 > 🙈 Nobody can see anyone else's pick — or even the vote split — until voting is closed, so there's no peeking.
 
-> Predictions are completely optional and separate from sync. Everything else works exactly the same whether you use them or not. Valorant is supported today, with more games to come.
+> Predictions are completely optional and separate from sync — everything else works exactly the same whether you use them or not.
 
 ---
 
@@ -268,7 +268,7 @@ No. Your stream comes straight from Twitch, exactly as it always does. EchoSync 
 No. Only the **one** host runs `echosync-host.exe`. Everyone else just needs the extension and the link.
 
 **What are predictions?**
-An optional watch-party game built in. The host opens a prediction on the match you're watching, everyone calls the winner (or the exact score) before a timer, and a leaderboard keeps score. Full details under [Watch-party predictions](#watch-party-predictions).
+An optional watch-party game built in. The host opens a prediction on the match you're watching — for Valorant, Counter-Strike, League of Legends, Rocket League, or a custom question of their own — everyone calls it before a timer, and a leaderboard keeps score. Several can run at once. Full details under [Watch-party predictions](#watch-party-predictions).
 
 **Can the host run on Mac or Linux?**
 The prebuilt host here is Windows-only for now. Your friends can be on any operating system — they only need the browser extension. If there is enough demand for a Mac/Linux port, I will add it in the future.
